@@ -6,9 +6,11 @@ import Page_01 from './abotu-us/Page_01.jsx'
 import Page_02 from './abotu-us/Page_02.jsx'
 import Page_03 from './abotu-us/Page_03.jsx'
 import Page_04 from './abotu-us/Page_04.jsx'
+import Header from './abotu-us/Header.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <Header/>
     {/* <Page_01/> */}
     {/* <Page_02/> */}
     <Page_03/>
